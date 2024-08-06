@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap:wrap;
+    flex: content;
+}
+
+header {
+    background-color:coral;
+    padding: 1%;
+    display: flex;
+    max-height: 100px;
+}
+
+.Inicio {
+    display: flex;
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.Tprincipal {
+    margin: 0.3%;
+    
+}
+
+.Opciones {
+    display: flex;
+    margin-left: 70%;
+}
+
+.Opreg {
+    list-style: none;
+    display: flex;
+}
+
+.Opreg li {
+    margin: 5%;
+}
+
+main {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.cadenas, .manillas, .relojes, .argollas {
+    display: flex;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0.1%;
+}
+
+.cadenas h2, .manillas h2, h5 {
+    text-align: center;
+}
+
+.cadena1, .cadena2, .manilla1, .manilla2 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+}
+
+.seccion1, .seccion2, .seccion3, .seccion4 {
+    background-color:darksalmon;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color:bisque;
+}
+
+footer ul li, h5, ul li {
+    margin: 5px;
+}
+
+footer ul li a, ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+aside {
+    background-image:url("/Joyeria/Imagenes/FondoJoyas.jpg");
+    background-size: cover;
+    background-color: azure;
+    width: 100%;
+}
